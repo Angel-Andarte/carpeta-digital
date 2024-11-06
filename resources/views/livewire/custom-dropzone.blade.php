@@ -1,11 +1,13 @@
 <div
     x-cloak
-    x-data="dropzone({
-        _this: @this,
-        uuid: @js($uuid),
-        multiple: @js($multiple),
-        offline: !navigator.onLine,
-    })"
+    x-data="{
+        dropzone: dropzone({
+            _this: @this,
+            uuid: @js($uuid),
+            multiple: @js($multiple),
+        }),
+        offline: !navigator.onLine
+    }"
     x-init="
         setInterval(() => {
             offline = !navigator.onLine;

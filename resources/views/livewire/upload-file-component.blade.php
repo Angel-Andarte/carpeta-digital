@@ -21,7 +21,7 @@
 
                         <livewire:custom-dropzone
                         wire:model="upload"
-                        :rules="['mimes:png,jpeg,doc,pdf,ppt,dwg,kml,mov','max:320768']"
+                        :rules="['mimes:png,jpeg,doc,pdf,ppt,dwg,kml,mov,docx,xlsx','max:320768']"
                         :multiple="false" />
 
                     </div>

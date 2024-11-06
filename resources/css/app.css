@@ -294,3 +294,64 @@
     color: #fff;
     margin-left: 15px;
   }
+
+
+  .borderless-table thead th {
+    vertical-align: middle;
+    text-align: center;
+    background-color: #3182ce;
+    color: #fff;
+}
+
+.borderless-table thead th:first-child {
+    border-top-left-radius: 10px;
+}
+
+.borderless-table thead th:last-child {
+    border-top-right-radius: 10px;
+}
+
+.badge-custom {
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    border-radius: 0.25rem;
+    text-align: center;
+    min-width: 100px;
+}
+
+.badge-custom-success {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.badge-custom-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.badge-custom-warning {
+    background-color: #fff3cd;
+    color: #856404;
+}
+
+.badge-custom-info {
+    background-color: #d1ecf1;
+    color: #0c5460;
+}
+
+.badge-custom-secondary {
+    background-color: #e2e3e5;
+    color: #383d41;
+}
+
+.badge-custom-edited {
+    background-color: #e2e1f7;
+    color: #4c4b7d;
+}
+
+.badge-custom-moved {
+    background-color: #cfe2ff;
+    color: #084298;
+}

@@ -10,6 +10,8 @@
 
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             @livewire('upload-file-component')
+
+            @livewire('preview-document')
         </div>
     </div>
 </x-app-layout>
